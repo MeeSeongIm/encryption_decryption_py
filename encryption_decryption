@@ -54,7 +54,7 @@ s1 = str(input("Enter a message to be encrypted: ").lower())
 for i in range(0,len([code[str(s1[i])] for i in range(0, len(s1))])):
     s2 += [code[str(s1[i])] for i in range(0, len(s1))][i]
  
-print("The encrypted message is " + s2 + " .")
+print("The encrypted message is  " + s2 + "  .")
 
 
 
