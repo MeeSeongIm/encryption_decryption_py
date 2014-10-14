@@ -1,0 +1,61 @@
+# encrypting and decrypting a message. 
+
+code = {
+"9": "0",
+"3": "1",
+"8": "2",
+"2": "3",
+"7": "4",
+"6": "5",
+"1": "6",
+"a": "7",
+"b": "8",
+"c": "9",
+"k": "a",
+"l": "b",
+"m": "c",
+"n": "d",
+"o": "e",
+"p": "f",
+"q": "g",
+"r": "h",
+"s": "i",
+"t": "j",
+"u": "k",
+"v": "l",
+"w": "m",
+"x": "n",
+"y": "o",
+"z": "p",
+"!": "q",
+"=": "r",
+"#": "s",
+".": "t",
+",": "u",
+")": "v",
+"*": "w",
+"(": "x",
+" ": "y",
+"5": "z",
+"0": "!",
+"4": "=",
+"d": "#",
+"e": ".",
+"f": ",",
+"g": ")",
+"h": "*",
+"i": "(",
+"j": " "
+} 
+ 
+s2 = ""
+s1 = str(input("Enter a message to be encrypted: ").lower())
+
+for i in range(0,len([code[str(s1[i])] for i in range(0, len(s1))])):
+    s2 += [code[str(s1[i])] for i in range(0, len(s1))][i]
+ 
+print("The encrypted message is " + s2 + " .")
+
+
+
+
