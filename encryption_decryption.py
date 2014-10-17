@@ -64,7 +64,6 @@ print("\n")
 # Suppose you received a message you want to decrypt.  
 
 t1= str(input("Enter the message to be decrypted: ").lower())
- 
 dual_code = dict(zip(code.values(), code.keys()))
 
 t3 = ""
