@@ -1,3 +1,5 @@
+# This is a sage file. 
+#
 # Good prime char and elliptic curve to try: see page 77 in 
 # Recommendation for Random Number Generation Using Deterministic Random Bit Generators, by Elaine Barker and John Kelsey
 # http://csrc.nist.gov/publications/nistpubs/800-90A/SP800-90A.pdf 
